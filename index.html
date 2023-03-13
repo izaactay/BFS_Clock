@@ -9,20 +9,26 @@
   <script src="app.js" defer></script>
   <title>Document</title>
 </head>
-<body style="margin:0;padding:1rem">
-  <h2 style=" text-align: center;">Countdown to Winter Closure</h2>
-  <div id="demo" style="width: 600px;height:70px;border:3px solid black; margin:auto">
-  <div style="width:50%; margin: auto;padding:10px">
-    <div id = 'days' style= "float: left; text-align: center;width: 25%"> </div>
-    <div id = 'hours' style= "float: left; text-align: center;width: 25%"></div>
-    <div id = 'min' style= "float: left; text-align: center;width: 25%"></div>
-    <div id = 'sec' style= "float: right; text-align: center;width: 25%"></div>
+<body style="margin:0 auto ;padding:1reml;">
+  <h2 style=" text-align:center; width: 100%; ">Countdown to Winter Closure</h2>
+  <div id="demo" style="width: 100%;height:70px; margin: 0 auto">
+  <div id = 'toprow'>
+    <div id = 'days' class = 'time'></div>
+    <p class = "colon">:</p>
+    <div id = 'hours' class = 'time'></div>
+    <p class = "colon">:</p>
+    <div id = 'min' class = 'time'></div>
+    <p class = "colon">:</p>
+    <div id = 'sec' class = 'time'></div>
   </div>
-  <div style="width:50%; margin: auto;display:block">
-    <div id = 'days' style= "float: left; text-align: center;width: 25%">Days</div>
-    <div id = 'hours' style= "float: left; text-align: center;width: 25%">Hours</div>
-    <div id = 'min' style= "float: left; text-align: center;width: 25%">Minutes</div>
-    <div id = 'sec' style= "float: right; text-align: center;width: 25%">Seconds</div>
+  <div id = 'botrow'>
+    <div id = 'days_label' class = 'labels'>Days</div>
+    <p class = "hiddencolon">:</p>
+    <div id = 'hours_label' class = 'labels'>Hours</div>
+    <p class = "hiddencolon">:</p>
+    <div id = 'min_label' class = 'labels'>Minutes</div>
+    <p class = "hiddencolon">:</p>
+    <div id = 'sec_label' class = 'labels'>Seconds</div>
   </div>
 </div>
   </body>

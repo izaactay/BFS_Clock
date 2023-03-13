@@ -1,0 +1,79 @@
+.colon
+{
+    float: left; 
+    text-align: center;
+    width: 6.67%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.time
+{
+    float: left;
+    text-align: center;
+    flex-basis: auto;
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+#sec
+{
+    float: right;
+}
+
+#sec_label
+{
+    float: right;
+    padding-left: 7%;
+}
+/*
+#hours_label
+{
+    padding-right: 7%;
+    padding-left: 7%;
+
+}
+
+#min_label
+{
+    padding-right: 7%;
+    padding-left: 7%;
+
+}
+
+#days_label
+{
+    padding-right: 7%;
+    
+
+}
+*/
+.labels
+{
+    float: left;
+    text-align: center;
+    width: 14%;
+    
+    /*border: 1px solid black;*/
+    
+}
+
+#toprow
+{
+    display:flex;
+    width:350px; 
+    margin: auto;
+
+    justify-content: space-between;
+}
+
+#botrow
+{
+    display:flex;
+    width:350px; 
+    margin: auto;
+
+    justify-content: space-evenly;
+    gap:6.67%
+}
