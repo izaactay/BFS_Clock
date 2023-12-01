@@ -25,7 +25,13 @@
 #sec_label
 {
     float: right;
-    padding-left: 7%;
+    padding-left: 1%;
+}
+
+min_label
+{
+    padding-right: 7%;
+    
 }
 /*
 #hours_label
@@ -35,12 +41,7 @@
 
 }
 
-#min_label
-{
-    padding-right: 7%;
-    padding-left: 7%;
 
-}
 
 #days_label
 {
@@ -62,7 +63,7 @@
 #toprow
 {
     display:flex;
-    width:250px; 
+    width:270px; 
     margin: auto;
 
     justify-content: space-between;
