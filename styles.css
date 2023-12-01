@@ -62,7 +62,7 @@
 #toprow
 {
     display:flex;
-    width:350px; 
+    width:250px; 
     margin: auto;
 
     justify-content: space-between;
@@ -71,7 +71,7 @@
 #botrow
 {
     display:flex;
-    width:350px; 
+    width:250px; 
     margin: auto;
 
     justify-content: space-evenly;
